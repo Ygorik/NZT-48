@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Graphik LC Web';
+    src: local('Graphik LC Web'),
+        url('../fonts/Graphik_LC_Web_Regular.woff2') format('woff2'),
+        url('../fonts/Graphik_LC_Web_Regular.woff') format('woff'),
+        url('../fonts/Graphik_LC_Web_Regular.ttf') format('ttf'),
+        url('../fonts/Graphik_LC_Web_Regular.eot') format('eot');
+}
