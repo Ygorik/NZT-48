@@ -241,6 +241,179 @@ main .first-carousel .buttons .right-arrow::after, main .first-carousel .buttons
   padding: 6px;
   cursor: pointer;
 }
+main .first-carousel .cards {
+  margin-top: 35px;
+  display: flex;
+}
+main .first-carousel .cards .card {
+  display: flex;
+}
+main .first-carousel .cards .card img {
+  min-width: 60vw;
+}
+main .first-carousel .cards .card .text {
+  background-color: #1E5AAF;
+  padding: 60px;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+  z-index: 1;
+}
+main .first-carousel .cards .card .text h1 {
+  font-size: 32px;
+  width: 80%;
+  color: #FDFDFD;
+}
+main .first-carousel .cards .card .text p {
+  color: #8EA9D0;
+  margin-top: 40px;
+  font-size: 18px;
+}
+main .first-carousel .cards .card .text h2 {
+  font-size: 22px;
+  margin-top: 60px;
+  color: #FDFDFD;
+}
+main .first-carousel .cards .card .text .right-arrow::after {
+  padding: 5px;
+}
+main .first-carousel .cards .card .text::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(9, 46, 98, 0.8), rgba(65, 124, 209, 0.8));
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 200ms ease;
+}
+main .first-carousel .cards .card .text:hover::before {
+  opacity: 1;
+}
+main .second-carousel {
+  margin-top: 133px;
+  padding: 0 50px;
+}
+main .second-carousel h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #252627;
+  max-width: 60vw;
+}
+main .second-carousel .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .second-carousel .top-line .buttons {
+  padding-top: 40px;
+}
+main .second-carousel .top-line .buttons button {
+  background: none;
+  border: none;
+}
+main .second-carousel .top-line .buttons .right-arrow::after, main .second-carousel .top-line .buttons .left-arrow::after {
+  border-color: #1E5AAF;
+  padding: 6px;
+  cursor: pointer;
+}
+main .second-carousel .top-line p {
+  color: #1E5AAF;
+  font-size: 20px;
+  font-weight: 600;
+}
+main .second-carousel .cards {
+  margin-top: 35px;
+  display: flex;
+}
+main .second-carousel .cards .card {
+  position: relative;
+  background-color: #1E5AAF;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 61px 110px;
+  max-width: 45vw;
+}
+main .second-carousel .cards .card h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #FDFDFD;
+  word-spacing: 100vw;
+}
+main .second-carousel .cards .card p {
+  color: #557EB8;
+  margin-top: 20px;
+  font-size: 18px;
+  max-width: 60%;
+}
+main .second-carousel .cards .card h2 {
+  font-size: 36px;
+  color: #9FB7DB;
+  margin-top: 80px;
+  max-width: 85%;
+}
+main .second-carousel .cards .card h3 {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 40px;
+}
+main .second-carousel .cards .card .right-arrow::after {
+  padding: 5px;
+  float: right;
+}
+main .second-carousel .cards .card img {
+  border-radius: 100px;
+  position: absolute;
+  top: 61px;
+  right: 100px;
+}
+main .second-carousel .cards .card::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(9, 46, 98, 0.8), rgba(65, 124, 209, 0.8));
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 200ms ease;
+}
+main .second-carousel .cards .card:hover::before {
+  opacity: 1;
+}
+
+footer {
+  padding: 45px 50px;
+  margin-top: 120px;
+  background-color: #051A2C;
+}
+footer h1 {
+  color: #FDFDFD;
+  font-size: 30px;
+  width: 14%;
+}
+footer .row {
+  margin-top: 50px;
+  display: flex;
+  color: #8C8D98;
+  justify-content: space-between;
+}
+footer .row p {
+  white-space: nowrap;
+  font-size: 20px;
+}
+footer .row .left-part {
+  display: flex;
+}
+footer .row .left-part p:first-child {
+  margin-right: 12%;
+}
+footer .row .left-part p:nth-child(2) {
+  margin-right: 5%;
+}
 
 .right-arrow::after {
   content: "";
